@@ -1,5 +1,5 @@
 # Ancient Alien Starship Preset
-High contrast, sci-fi themed Starship preset for your terminals
+High contrast, sci-fi alien and egyptian themed Starship preset for your terminal
 
 ## Screenshot of Acient Aliens preset
 
