@@ -254,6 +254,7 @@ symbol = '🚢 '
 format = '[$symbol$context( \($namespace\))]($style) in '
 style = 'cyan bold'
 disabled = false
+
 [kubernetes.context_aliases]
 'dev.local.cluster.k8s' = 'dev'
 '.*/openshift-cluster/.*' = 'openshift'
@@ -262,7 +263,7 @@ disabled = false
 [kubernetes.user_aliases]
 'dev.local.cluster.k8s' = 'dev'
 'root/.*' = 'root'
-detect_files = ['kind.yaml', 'kind.json']
+detect_files = 'kubeconfig'
 
 [vcsh]
 symbol = "🆅💽"
@@ -951,8 +952,6 @@ disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "bg:#240046"
 format = '[[ 🐈 $time ](fg:#ff9e00 bg:#240046)]($style)'
-ssh_only = false
-ssh_symbol = '🌐𓂀 '
 utc_time_offset = 'local'
 time_range = '-'
 
