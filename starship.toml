@@ -27,8 +27,9 @@
 #     .         +   .  .  ...:: ..|  -- .:|
 #.      . . .   .  .  . ... :..:.."(  .  .)"
 # .   .       .     :  .   .: ::/  .  .   ::\ art by uknown edit by 00face
+
 format = """
-$battery🌑 🌒 🌓 🌔 🌕 🌖 🌗 🌘 🌑 $os$env_var$memory_usage 
+$battery🌑 🌒 🌓 🌔 🌕 🌖 🌗 🌘 🌑 $os$env_var$memory_usage
 𖥧𓋼𖤣𖥧𓋼𓍊𓋼𓍊𓋼𖥧𖤣𓋼𖤣𖥧𓇗𖥧𓋼𖤣𖥧𓋼𓍊𓋼𓍊𓋼𖥧𖤣$username $hostname $localip
 $status[𒅒𒈔𒅒𒇫𒄆👾](bg:#000000 fg:#240046)\
 $shlvl\
@@ -106,10 +107,10 @@ $container\
 ▒[▒║█▒](fg:#ff8500 bg:#240046)\
 [║](bg:#ff8500 fg:#240046)\
 $directory\
-[](fg:#ff9100 bg:#ff9e00)\
-[](fg:#ff9e00 bg:#240046)\
+[𓇻](fg:#ff9100 bg:#ff9e00)\
+[𓇻](fg:#ff9e00 bg:#240046)\
 $time\
-[ ](fg:#240046)\
+[𓇻](fg:#240046)\
 [🌛](bg:#000000)\n\
 $shell$character"""
 
@@ -827,7 +828,7 @@ format = 'via [$symbol$version]($style) '
 version_format = 'v${raw}'
 symbol = '⍱🕊'
 detect_extensions = []
-detect_files = ['Vagrantfile'] 
+detect_files = ['Vagrantfile']
 detect_folders = []
 style = 'cyan bold'
 disabled = false
