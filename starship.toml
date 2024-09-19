@@ -30,7 +30,7 @@
 
 format = """
 $battery🌑 🌒 🌓 🌔 🌕 🌖 🌗 🌘 🌑 $os$env_var$memory_usage
-𖥧𓋼𖤣𖥧𓋼𓍊𓋼𓍊𓋼𖥧𖤣𓋼𖤣𖥧𓇗𖥧𓋼𖤣𖥧𓋼𓍊𓋼𓍊𓋼𖥧𖤣$username $hostname $localip
+𖥧𓋼𖤣𖥧𓋼𓍊𓋼𓍊𓋼𖥧𖤣$username $hostname $localip
 $status[𒅒𒈔𒅒𒇫𒄆👾](bg:#000000 fg:#240046)\
 $shlvl\
 $singularity\
@@ -107,10 +107,10 @@ $container\
 ▒[▒║█▒](fg:#ff8500 bg:#240046)\
 [║](bg:#ff8500 fg:#240046)\
 $directory\
-[𓇻](fg:#ff9100 bg:#ff9e00)\
-[𓇻](fg:#ff9e00 bg:#240046)\
+[𓇋](fg:#ff9100 bg:#ff9e00)\
+[𓇋](fg:#ff9e00 bg:#240046)\
 $time\
-[𓇻](fg:#240046)\
+[𓇋](fg:#240046)\
 [🌛](bg:#000000)\n\
 $shell$character"""
 
@@ -325,7 +325,7 @@ truncation_length = 4
 truncation_symbol = 'x'
 
 [pijul_channel]
-symbol = '🦀 '
+symbol = '🦀𓀮 '
 style = 'bold red'
 format = 'on [$symbol$channel]($style) '
 truncation_length = 4
@@ -357,7 +357,7 @@ disabled = false
 [cmake]
 format = 'via [$symbol($version )]($style)'
 version_format = 'v${raw}'
-symbol = '󰙱'
+symbol = '󰙱𓀮'
 detect_extensions = []
 detect_files = ['CMakeLists.txt', 'CMakeCache.txt']
 detect_folders = []
@@ -433,7 +433,7 @@ disabled = false
 [elm]
 format = 'via [$symbol($version )]($style)'
 version_format = 'v${raw}'
-symbol = '🌳 '
+symbol = '🌳𓀮 '
 detect_extensions = ['elm']
 detect_files = ['elm.json', 'elm-package.json', '.elm-version']
 detect_folders = ['elm-stuff']
