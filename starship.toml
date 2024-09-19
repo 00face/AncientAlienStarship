@@ -144,9 +144,7 @@ vimcmd_visual_symbol = '𓄮[ 󰛔➜➜](bold yellow) '
 disabled = false
 format = '[$symbol]($style)'
 
-[
-directory.substitutions
-]
+[directory.substitutions]
 "Documents"="𓆏📄Documents"
 "Downloads"="𓆰📂Downloads"
 "Music"="𓇬🎵Music"
