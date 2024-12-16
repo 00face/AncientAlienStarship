@@ -27,6 +27,7 @@
 #     .         +   .  .  ...:: ..|  -- .:|
 #.      . . .   .  .  . ... :..:.."(  .  .)"
 # .   .       .     :  .   .: ::/  .  .   ::\ art by uknown edit by 00face
+command_timeout = 5000
 
 format = """
 $battery🌑 🌒 🌓 🌔 🌕 🌖 🌗 🌘 🌑 $os$env_var$memory_usage
